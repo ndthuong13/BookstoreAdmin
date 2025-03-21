@@ -285,26 +285,29 @@
   datatables.forEach(datatable => {
     new simpleDatatables.DataTable(datatable, {
 
+      perPage: 10,
+      perPageSelect: false,
+
       labels: {
         placeholder: "Tìm kiếm",
         info: "Đang hiển thị {start} đến {end}"
       },
 
-      perPageSelect: [5, 10, 15, ["Tất cả", -1]],
-      columns: [{
-          select: 2,
-          sortSequence: ["desc", "asc"]
-        },
-        {
-          select: 3,
-          sortSequence: ["desc"]
-        },
-        {
-          select: 4,
-          cellClass: "green",
-          headerClass: "red"
-        }
-      ]
+      // perPageSelect: [5, 10, 15, ["Tất cả", -1]],
+      // columns: [{
+      //     select: 2,
+      //     sortSequence: ["desc", "asc"]
+      //   },
+      //   {
+      //     select: 3,
+      //     sortSequence: ["desc"]
+      //   },
+      //   {
+      //     select: 4,
+      //     cellClass: "green",
+      //     headerClass: "red"
+      //   }
+      // ]
     });
   })
 
