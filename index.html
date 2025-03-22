@@ -287,7 +287,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
+              <a class="dropdown-item d-flex align-items-center" href="pages-login.html">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Đăng xuất</span>
               </a>
@@ -363,7 +363,29 @@
           </li>
         </ul>
       </li><!-- End Charts Nav -->
-
+      
+      <li class="nav-item">
+        <a class="nav-link " data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="icons-bootstrap.html">
+              <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-remix.html" class="active">
+              <i class="bi bi-circle"></i><span>Remix Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-boxicons.html">
+              <i class="bi bi-circle"></i><span>Boxicons</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Icons Nav -->
 
       <li class="nav-heading">Trang</li>
 
@@ -559,7 +581,7 @@
                       new ApexCharts(document.querySelector("#reportsChart"), {
                         series: [{
                           name: 'Bán hàng',
-                          data: [71 ,30 ,51 ,39 ,83 ,60 ,62],
+                          data: [70 ,30 ,51 ,39 ,83 ,60 ,62],
                         }, {
                           name: 'Doanh thu',
                           data: [20, 42, 45, 32, 34, 49, 40]
@@ -596,7 +618,8 @@
                         },
                         xaxis: {
                           type: 'datetime',
-                          categories: ["2025-03-19T00:00:00.000Z", 
+                          categories: [
+                          "2025-03-19T00:00:00.000Z", 
                           "2025-03-19T01:30:00.000Z", 
                           "2025-03-19T02:30:00.000Z", 
                           "2025-03-19T03:30:00.000Z", 
@@ -669,14 +692,14 @@
                         <td>Lê Võ Khôi Nguyên</td>
                         <td><a href="#" class="text-primary">Mười vạn câu hỏi vì sao</a></td>
                         <td>200,000 VND</td>
-                        <td><span class="badge bg-success">Chấp bận</span></td>
+                        <td><span class="badge bg-success">Chấp nhận</span></td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#">#4</a></th>
                         <td>Nguyễn Đình Thường</td>
                         <td><a href="#" class="text-primar">Rotern Rose Saga</a></td>
                         <td>250,000 VND</td>
-                        <td><span class="badge bg-danger">Rejected</span></td>
+                        <td><span class="badge bg-danger">Từ chối</span></td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#">#5</a></th>
