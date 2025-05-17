@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Quản lý khách hàng / Danh mục khách hàng</title>
+  <title>Quản lý khách hàng / Chăm sóc khách hàng</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,12 +41,12 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
+  <header id="header" class="header fixed-top d-flex align-items-center" style="background-color: #b8eaf9;">
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/book-education-study-svgrepo-com.svg" alt="">
-        <span class="d-none d-lg-block">Bookstore</span>
+        <span class="d-none d-lg-block">BookStore</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -153,6 +153,7 @@
               <a href="#">Hiện tất cả các thông báo</a>
             </li>
           </ul><!-- End Notification Dropdown Items -->
+
         </li><!-- End Notification Nav -->
 
         <li class="nav-item dropdown">
@@ -236,7 +237,6 @@
             </li>
 
           </ul><!-- End Messages Dropdown Items -->
-
         </li><!-- End Messages Nav -->
 
         <li class="nav-item dropdown pe-3">
@@ -244,7 +244,7 @@
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="assets/img/thuongnguyenavatar.jpg" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">Nguyễn Đình Thường</span>
-          </a><!-- End Profile Iamge Icon --> 
+          </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
@@ -308,7 +308,7 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Thống kê doanh thu  </span>
+          <span>Trang chủ</span>
         </a>
       </li><!-- End Dashboard Nav -->
 
@@ -318,49 +318,49 @@
         </a>
         <ul id="components-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
           <li>
-            <a href="components-alerts.html" class="active">
-              <i class="bi bi-circle"></i><span>Danh mục khách hàng</span>
+            <a href="CustomerCategory.html">
+              <i class="bi bi-circle"></i><span>Danh sách khách hàng</span>
             </a>
           </li>
           <li>
-            <a href="components-tooltips.html">
+            <a href="BillManagement.html" class="active">
               <i class="bi bi-circle"></i><span>Quản lý đơn hàng</span>
             </a>
           </li>
           <li>
-            <a href="components-buttons.html">
+            <a href="CustomerCare.html">
               <i class="bi bi-circle"></i><span>Chăm sóc khách hàng</span>
             </a>
           </li>
         </ul>
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-layout-text-window-reverse"></i><span>Quản lý nhà cung cấp</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="tables-general.html">
-                <i class="bi bi-circle"></i><span>Quản lý chung</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Tables Nav -->
-  
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-bar-chart"></i><span>Báo cáo doanh thu</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="charts-apexcharts.html">
-                <i class="bi bi-circle"></i><span>Biểu đồ</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Charts Nav -->
-  
-  
       </li><!-- End Components Nav -->
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Quản lý nhà cung cấp</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="SupplierManagement.html">
+              <i class="bi bi-circle"></i><span>Quản lý chung</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Báo cáo doanh thu</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>Biểu đồ</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Charts Nav -->
 
 
       <li class="nav-heading">Trang</li>
@@ -399,6 +399,7 @@
           <span>Đăng nhập</span>
         </a>
       </li><!-- End Login Page Nav -->
+
     </ul>
 
   </aside><!-- End Sidebar-->
@@ -406,12 +407,12 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Danh mục khách hàng</h1>
+      <h1>Chăm sóc khách hàng</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
           <li class="breadcrumb-item">Quản lý khách hàng</li>
-          <li class="breadcrumb-item active">Danh mục khách hàng</li>
+          <li class="breadcrumb-item active">Chăm sóc khách hàng</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -419,117 +420,201 @@
     <section class="section">
       <div class="row">
         <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Danh sách thắc mắc của khách hàng</h5>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead class="table-dark">
+                    <tr>
+                      <th>Id</th>
+                      <th>Email</th>
+                      <th>Số điện thoại</th>
+                      <th>Ngày</th>
+                      <th>Thời gian</th>
+                      <th>Trạng thái</th>
+                      <th>Câu hỏi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>0001</td>
+                      <td>thuongnguyendinh959@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>16/03/2025</td>
+                      <td>15:40 pm</td>
+                      <td><span class="badge bg-warning">Chưa trả lời</span></td>
+                      <td>
+                        <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>0002</td>
+                      <td>nguyenvu2024@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>15/03/2025</td>
+                      <td>5:40 am</td>
+                      <td><span class="badge bg-success">Đã trả lời</span></td>
+                      <td>
+                        <!-- <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>0003</td>
+                      <td>nguyenduckkhanh@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>16/03/2025</td>
+                      <td>22:55 pm</td>
+                      <td><span class="badge bg-success">Đã trả lời</span></td>
+                      <td>
+                        <!-- <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>0004</td>
+                      <td>huynguyenngoc@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>17/03/2025</td>
+                      <td>07:55 am</td>
+                      <td><span class="badge bg-warning">Chưa trả lời</span></td>
+                      <td>
+                        <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button>
+                      </td>
+                    </tr>
+                    <td>0005</td>
+                      <td>letronggiap@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>16/03/2025</td>
+                      <td>15:40 pm</td>
+                      <td><span class="badge bg-success">Đã trả lời</span></td>
+                      <td>
+                        <!-- <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>0006</td>
+                      <td>levokhoinguyen@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>15/03/2025</td>
+                      <td>5:40 am</td>
+                      <td><span class="badge bg-success">Đã trả lời</span></td>
+                      <td>
+                        <!-- <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>0007</td>
+                      <td>tranvannhuan@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>16/03/2025</td>
+                      <td>22:55 pm</td>
+                      <td><span class="badge bg-success">Đã trả lời</span></td>
+                      <td>
+                        <!-- <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>0008</td>
+                      <td>doantuananh@gmail.com</td>
+                      <td>0123456789</td>
+                      <td>17/03/2025</td>
+                      <td>07:55 am</td>
+                      <td><span class="badge bg-warning">Chưa trả lời</span></td>
+                      <td>
+                        <button class="btn btn-success btn-sm" onclick="confirmOrder(this, 'xác nhận')">Chi tiết</button>
+                      </td>
+                    </tr>
+                    
+  
+                  </tbody>
+                  <tbody id="customerTableBody">
+  
+                  </tbody>
+                </table>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+
+          
 
           <div class="card">
             <div class="card-body">
+              <h5 class="card-title">Chăm sóc khách hàng</h5>
 
-              <h5 class="card-title">Khách hàng</h5>
+              <!-- General Form Elements -->
+              <form>
+                <div class="row mb-3">
+                  <label for="inputText" class="col-sm-2 col-form-label">Id</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputNumber" class="col-sm-2 col-form-label">Số điện thoại</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputDate" class="col-sm-2 col-form-label">Ngày</label>
+                  <div class="col-sm-10">
+                    <input type="date" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputTime" class="col-sm-2 col-form-label">Thời gian</label>
+                  <div class="col-sm-10">
+                    <input type="time" class="form-control">
+                  </div>
+                </div>
 
-              <table class="table table-bordered table-striped">
-                <thead class="table-dark">
-                  <tr>
-                    <th>ID</th>
-                    <th>Họ và Tên</th>
-                    <th>Email</th>
-                    <th>Số Điện Thoại</th>
-                    <th>Ngày Đăng Ký</th>
-                    <th>Tình Trạng</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>001</td>
-                    <td>Nguyễn Văn A</td>
-                    <td>nguyenvana@example.com</td>
-                    <td>0987654321</td>
-                    <td>2024-03-10</td>
-                    <td><span class="badge bg-success">Hoạt động</span></td>
-                    <td>
-                      <button class="btn btn-danger btn-sm" onclick="confirmAction(this, 'khóa')">Khóa</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>002</td>
-                    <td>Trần Thị B</td>
-                    <td>tranthib@example.com</td>
-                    <td>0978654321</td>
-                    <td>2024-02-15</td>
-                    <td><span class="badge bg-danger">Bị khóa</span></td>
-                    <td>
-                      <button class="btn btn-success btn-sm" onclick="confirmAction(this, 'Mở khoá')">Mở khoá</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>003</td>
-                    <td>Lê Văn C</td>
-                    <td>levanc@example.com</td>
-                    <td>0967543210</td>
-                    <td>2024-01-20</td>
-                    <td><span class="badge bg-success">Đang hoạt động</span></td>
-                    <td>
-                      <button class="btn btn-danger btn-sm" onclick="confirmAction(this, 'khóa')">Khóa</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>003</td>
-                    <td>Lê Văn C</td>
-                    <td>levanc@example.com</td>
-                    <td>0967543210</td>
-                    <td>2024-01-20</td>
-                    <td><span class="badge bg-success">Đang hoạt động</span></td>
-                    <td>
-                      <button class="btn btn-danger btn-sm" onclick="confirmAction(this, 'khóa')">Khóa</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>003</td>
-                    <td>Lê Văn C</td>
-                    <td>levanc@example.com</td>
-                    <td>0967543210</td>
-                    <td>2024-01-20</td>
-                    <td><span class="badge bg-success">Đang hoạt động</span></td>
-                    <td>
-                      <button class="btn btn-danger btn-sm" onclick="confirmAction(this, 'khóa')">Khóa</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                <div class="row mb-3">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Giải đáp</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" style="height: 100px"></textarea>
+                  </div>
+                </div>
+<!-- 
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Lựa chọn</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div> -->
 
-              <script>
-                function confirmAction(button, action) {
-                  let userName = button.closest("tr").querySelector("td:nth-child(2)").innerText;
-                  let confirmation = confirm(`Bạn có chắc chắn muốn ${action} tài khoản của ${userName}?`);
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Xác nhận</label>
+                  <div class="col-sm-4">
+                    <button type="submit" class="btn btn-primary">Gửi giải đáp</button></button>
+                  </div>
+                </div>
               
-                  if (confirmation) {
-                    let statusBadge = button.closest("tr").querySelector("td:nth-child(6) span");
-                    
-                    if (action === "khóa") {
-                      statusBadge.classList.remove("bg-success");
-                      statusBadge.classList.add("bg-danger");
-                      statusBadge.innerText = "Bị khóa";
-                      button.classList.remove("btn-danger");
-                      button.classList.add("btn-success");
-                      button.innerText = "Mở khóa";
-                      button.setAttribute("onclick", "confirmAction(this, 'mở khóa')");
-                    } else {
-                      statusBadge.classList.remove("bg-danger");
-                      statusBadge.classList.add("bg-success");
-                      statusBadge.innerText = "Hoạt động";
-                      button.classList.remove("btn-success");
-                      button.classList.add("btn-danger");
-                      button.innerText = "Khóa";
-                      button.setAttribute("onclick", "confirmAction(this, 'khóa')");
-                    }
-                  }
-                }
-              </script>
+
+              </form><!-- End General Form Elements -->
 
             </div>
           </div>
         </div>
       </div>
+    </div>
+
     </section>
+
 
   </main><!-- End #main -->
 
